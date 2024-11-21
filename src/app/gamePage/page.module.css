@@ -105,8 +105,8 @@
   width: 150px;
 }
 /* remove spinner of input */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+.input-number[type="number"]::-webkit-inner-spin-button,
+.input-number[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }

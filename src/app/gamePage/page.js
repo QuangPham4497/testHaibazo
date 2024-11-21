@@ -193,7 +193,12 @@ export default function GamePage() {
       <div className={styles.header}>
         <div>
           <label htmlFor="points">Points:</label>
-          <input type="number" value={points} onChange={handleChange} />
+          <input
+            type="number"
+            value={points}
+            onChange={handleChange}
+            className="input-number"
+          />
         </div>
         <Timer key={key} isRunning={isRunning} />
       </div>
