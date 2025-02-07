@@ -71,7 +71,7 @@
   cursor: pointer;
 }
 .circle.disappearing {
-  opacity: 0;
+  opacity: 0.5;
 }
 .circle div {
   font-size: 16px;
